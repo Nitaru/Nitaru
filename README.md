@@ -1,86 +1,73 @@
 # Hi, I'm Nika 👋
 
-I'm a Computer Science student and IT enthusiast with a strong interest in  
-**System Administration, Networking, Cloud, and DevOps engineering**.
-
-I enjoy working close to infrastructure, understanding how systems work,  
-why they break, and how to automate and improve them.
+Support engineer (L2) at **Virtuozzo** in Tbilisi, and a Computer Science student at Ilia State University (graduating 2027).
+Since March 2026 I investigate incidents on production cloud and storage clusters built on Linux, KVM and OpenStack, and I'm building my path toward **Linux administration, infrastructure operations and SRE/DevOps-style work**.
 
 ---
 
-## 🧠 What I'm currently focused on
-- 📡 Studying for **CCNA** (Networking fundamentals, routing, switching)
-- 🐧 Improving **Linux system administration** skills
-- ☁️ Learning **AWS & cloud infrastructure basics**
-- ⚙️ Exploring **DevOps tools** (Docker, CI/CD, automation)
-- 🛠️ Practicing troubleshooting and IT support scenarios
+## 🧭 What I do day to day
+- Investigate problems on production clusters over SSH: logs, services, kernel messages, hardware health and networking
+- Find root causes from evidence, explain them clearly to customers, and escalate to developers with a timeline and a clear split between what is verified and what is not
+- Work with KVM/libvirt VMs, OpenStack services (compute, networking, volumes), a distributed storage cluster and the platform's alerting
+- Write documentation and notes on recurring issues, and track work in ticketing systems and issue trackers
 
 ---
 
-## 🛠️ Technical Skills (Growing & Practical)
+## 🛠️ Skills (practical, from about 9 months of production support)
 
-**Operating Systems & IT**
-- Linux (Ubuntu): users, permissions, SSH, services, logs
-- Basic system troubleshooting & diagnostics
-- Bash scripting (automation & maintenance tasks)
+**Linux & troubleshooting**
+- journalctl, dmesg, systemd, packages and updates, time sync
+- Memory and NUMA pressure, OOM-killer reports, swap behavior
+- Disk and NVMe health (SMART, kernel I/O errors), BMC/IPMI event logs
 
-**Networking**
-- TCP/IP, DNS, DHCP, OSI model
-- Subnetting & routing fundamentals
-- Currently preparing for CCNA
+**Virtualization & cloud**
+- KVM/QEMU/libvirt, live migration, HA and node maintenance
+- OpenStack: Nova, Neutron with Open vSwitch, Cinder
+- Platform CLI and REST-based tooling
 
-**DevOps & Cloud (Beginner)**
-- Docker (containers & images)
-- CI/CD concepts
-- AWS fundamentals (EC2, S3, IAM – learning in progress)
+**Storage & networking**
+- Distributed storage basics: disks, chunk services, cluster health
+- VLANs, bonds, MTU, DHCP/DNS basics, Open vSwitch ports and bridges
+- Still strengthening networking (CCNA track)
 
-**Web & Scripting**
-- HTML, CSS, JavaScript (basic frontend)
-- Node.js fundamentals
-- Python basics
+**Automation & infrastructure as code**
+- Bash: loops that run the same read-only checks on many nodes, log filtering with grep, awk and sed
+- Terraform (my lab), Git
+- Learning Ansible
 
----
-
-## 📂 What I'm building & learning (in progress)
-
-I'm currently building hands-on projects to strengthen my skills in
-Linux administration, networking, and DevOps fundamentals.
-
-Planned and in-progress repositories include:
-
-- 🐧 **Linux & Bash Fundamentals**
-  - Bash scripts for automation
-  - Linux commands, services, permissions, and troubleshooting
-
-- 📡 **Networking Notes (CCNA Prep)**
-  - OSI & TCP/IP models
-  - Subnetting, routing, switching concepts
-  - Practical networking explanations
-
-- ⚙️ **DevOps & Cloud Learning**
-  - Docker fundamentals
-  - CI/CD concepts
-  - Infrastructure basics (AWS, automation)
-
-- 🌐 **Basic Web Projects**
-  - Simple frontend & backend practice
-  - Focus on understanding how apps interact with servers
-
-These repositories are updated continuously as I learn and practice.
----
-
-## 🎯 Career Goals
-I'm actively looking for:
-- **IT Help Desk / Support roles**
-- **Junior SysAdmin / DevOps internships**
-- **Cloud / Network engineering trainee positions**
-
-I value real-world learning, mentorship, and environments where I can grow by doing.
+**Monitoring & scripting**
+- Daily work with platform alerts and telemetry
+- [Confirm: Prometheus and Grafana basics]
+- Python basics, JavaScript/Node basics, Docker basics
 
 ---
 
-## 📫 How to reach me
-- 📧 Email: nikoloztolordava10@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/nika-tolordava-2b82a6231
+## 🧪 Lab & projects
+- **Three-node Virtuozzo Hybrid Infrastructure lab**, provisioned with Terraform: [repo link]. I use it to reproduce problems and to verify procedures before recommending them.
+- **Atlas**, a country explorer web app (REST Countries API, Fetch, LocalStorage, GitHub Pages): [link]
+- **Interactive data widgets** (investment growth visualizations): [link, if public]
+- **In progress:** Prometheus + Grafana + Alertmanager + Loki in Docker Compose with a small Python alert bot, and an Ansible role set for a Linux baseline
 
-Thanks for visiting my profile!
+---
+
+## 📚 Learning now
+RHCSA · CCNA · Ansible · Prometheus/Grafana/Loki · Python for automation · Kubernetes basics
+
+---
+
+## 🧩 How I work
+- Evidence first, and read-only checks before any change
+- Separate verified facts from guesses
+- Write it down, so the next person doesn't have to rediscover it
+- Use AI assistants to speed up analysis, and always verify against the documentation and a lab
+
+---
+
+## 🎯 Looking for
+Linux administration, infrastructure operations and SRE/DevOps-oriented roles, where I can keep growing by doing.
+
+---
+
+## 📫 Contact
+- 📧 nikoloztolordava10@gmail.com
+- 💼 https://www.linkedin.com/in/nika-tolordava-2b82a6231
