@@ -32,8 +32,8 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 **Automation & infrastructure as code**
 - Bash: loops that run the same read-only checks on many nodes, log filtering with grep, awk and sed
-- Terraform (my lab), Git
-- Learning Ansible
+- Terraform: modules, remote state and a policy-checked stack on AWS (see projects)
+- Ansible: a two-VM hardened environment configured entirely by roles (see projects), Git
 
 **Monitoring & scripting**
 - Daily work with platform alerts and telemetry
@@ -43,6 +43,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 ---
 
 ## 🧪 Lab & projects
+- **[AWS Terraform Hands-On](https://github.com/Nitaru/AWS-Terraform-Hands-On)**: a VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (9 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI.
 - **[Kubernetes Hands-On](https://github.com/Nitaru/Kubernetes-Hands-On)**: a production-style platform on a 3-node kind cluster, built with Helm: Traefik ingress, HPA autoscaling, zero-downtime rollouts, a PodDisruptionBudget, hardened pods, a Redis StatefulSet and default-deny NetworkPolicies enforced by Calico. Built from scratch by one script, with demos for rollouts, self-healing, autoscaling, network isolation and node drain, plus smoke tests and CI.
 - **[Linux Hands-On](https://github.com/Nitaru/Linux-Hands-On)**: a hardened two-VM Linux environment configured entirely with Ansible. Key-only SSH, UFW, fail2ban, a bastion host with ProxyJump, a WireGuard VPN with NAT, and a SHA-256 file integrity checker on a systemd timer. Comes with a 42-point verification script and scripted attack demos (SSH brute force, log tampering).
 - **[DevOps Hands-On](https://github.com/Nitaru/Nitaru_DevOps_Shenanigans)**: four projects that each run locally with Docker Compose: Consul service discovery, a 5-service Docker app, zero-downtime blue-green deployments with CI/CD, and a Prometheus + Grafana + Loki monitoring stack with custom exporters and alerting.
@@ -50,7 +51,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 ---
 
 ## 📚 Learning now
-RHCSA · CCNA · Ansible · Prometheus/Grafana/Loki · Python for automation · Kubernetes basics
+RHCSA · CCNA · Python for automation
 
 ---
 
