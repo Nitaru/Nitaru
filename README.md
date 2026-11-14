@@ -37,7 +37,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 **Monitoring & scripting**
 - Daily work with platform alerts and telemetry
-- [Confirm: Prometheus and Grafana basics]
+- Prometheus, Grafana and Loki: built full monitoring stacks with custom exporters and alerting (see projects)
 - Python basics, JavaScript/Node basics, Docker basics
 
 ---
@@ -46,9 +46,6 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 - **[Kubernetes Hands-On](https://github.com/Nitaru/Kubernetes-Hands-On)**: a production-style platform on a 3-node kind cluster, built with Helm: Traefik ingress, HPA autoscaling, zero-downtime rollouts, a PodDisruptionBudget, hardened pods, a Redis StatefulSet and default-deny NetworkPolicies enforced by Calico. Built from scratch by one script, with demos for rollouts, self-healing, autoscaling, network isolation and node drain, plus smoke tests and CI.
 - **[Linux Hands-On](https://github.com/Nitaru/Linux-Hands-On)**: a hardened two-VM Linux environment configured entirely with Ansible. Key-only SSH, UFW, fail2ban, a bastion host with ProxyJump, a WireGuard VPN with NAT, and a SHA-256 file integrity checker on a systemd timer. Comes with a 42-point verification script and scripted attack demos (SSH brute force, log tampering).
 - **[DevOps Hands-On](https://github.com/Nitaru/Nitaru_DevOps_Shenanigans)**: four projects that each run locally with Docker Compose: Consul service discovery, a 5-service Docker app, zero-downtime blue-green deployments with CI/CD, and a Prometheus + Grafana + Loki monitoring stack with custom exporters and alerting.
-- **Three-node Virtuozzo Hybrid Infrastructure lab**, provisioned with Terraform: [repo link]. I use it to reproduce problems and to verify procedures before recommending them.
-- **Atlas**, a country explorer web app (REST Countries API, Fetch, LocalStorage, GitHub Pages): [link]
-- **Interactive data widgets** (investment growth visualizations): [link, if public]
 
 ---
 
@@ -71,5 +68,6 @@ Linux administration, infrastructure operations and SRE/DevOps-oriented roles, w
 ---
 
 ## 📫 Contact
+- 🌐 https://nitaru.github.io
 - 📧 nikoloztolordava10@gmail.com
 - 💼 https://www.linkedin.com/in/nika-tolordava-2b82a6231
