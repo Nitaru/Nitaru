@@ -5,7 +5,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ---
 
-## 🧭 What I do day to day
+##  What I do day to day
 - Investigate problems on production clusters over SSH: logs, services, kernel messages, hardware health and networking
 - Find root causes from evidence, explain them clearly to customers, and escalate to developers with a timeline and a clear split between what is verified and what is not
 - Work with KVM/libvirt VMs, OpenStack services (compute, networking, volumes), a distributed storage cluster and the platform's alerting
