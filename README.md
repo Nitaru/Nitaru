@@ -154,6 +154,19 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
+## By the numbers
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/languages-light.svg"><img src="./assets/cards/languages-dark.svg" width="400" alt="Most used languages across public repos"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/lab-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/lab-light.svg"><img src="./assets/cards/lab-dark.svg" width="400" alt="Lab results from the AWS Terraform Hands-On project"></picture>
+</p>
+
+<p align="center">
+  <sub>Languages: bytes of code in my public repos, as GitHub detects them. Lab results: measured in <a href="https://github.com/Nitaru/AWS-Terraform-Hands-On">AWS Terraform Hands-On</a> on a real account, then destroyed.</sub>
+</p>
+
+---
+
 ## Studying
 
 <!-- Keep tags adjacent so link whitespace does not appear underlined. -->
