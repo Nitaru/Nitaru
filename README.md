@@ -45,7 +45,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ---
 
-## 🛠️ What I do day to day
+## What I do day to day
 
 - Investigate problems on production clusters over SSH: logs, services, kernel messages, hardware health and networking
 - Find root causes from evidence, explain them clearly to customers, and escalate to developers with a timeline and a clear split between what is verified and what is not
@@ -54,7 +54,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ---
 
-## 🧰 Skills
+## Skills
 
 <sub>Practical, from about 9 months of production support.</sub>
 
@@ -110,7 +110,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ---
 
-## 🧪 Featured labs & projects
+## Featured labs & projects
 
 > **Each one runs, is tested, and says what it does not cover.**
 
@@ -154,7 +154,7 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## 📚 Studying
+## Studying
 
 <!-- Keep tags adjacent so link whitespace does not appear underlined. -->
 <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/"><picture><source media="(prefers-color-scheme: dark)"
@@ -176,7 +176,7 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## 🧭 How I work
+## How I work
 
 - Evidence first, and read-only checks before any change
 - Separate verified facts from guesses
@@ -185,13 +185,13 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## 🎯 Looking for
+## Looking for
 
 Linux administration, infrastructure operations and SRE/DevOps-oriented roles, where I can keep growing by doing.
 
 ---
 
-## 📬 Contact
+## Contact
 
 <p align="center">
   <a href="https://nitaru.github.io">nitaru.github.io</a> ·
