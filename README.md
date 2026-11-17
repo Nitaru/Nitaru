@@ -121,11 +121,25 @@ Each one runs, is tested, and says what it does not cover.
 
 ---
 
-## 📚 Learning now
+## 📚 Studying
 
-<p align="center">
-  <strong>RHCSA</strong> · <strong>CCNA</strong> · <strong>Python for automation</strong>
-</p>
+<!-- Keep tags adjacent so link whitespace does not appear underlined. -->
+<a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/"><picture><source media="(prefers-color-scheme: dark)"
+  srcset="./assets/study/aws-dark.svg"><source media="(prefers-color-scheme: light)"
+  srcset="./assets/study/aws-light.svg"><img src="./assets/study/aws-dark.svg"
+  alt="AWS Solutions Architect" width="120" height="132"></picture></a>
+<a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam"><picture><source media="(prefers-color-scheme: dark)"
+  srcset="./assets/study/redhat-dark.svg"><source media="(prefers-color-scheme: light)"
+  srcset="./assets/study/redhat-light.svg"><img src="./assets/study/redhat-dark.svg"
+  alt="RHCSA, Red Hat" width="120" height="132"></picture></a>
+<a href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html"><picture><source media="(prefers-color-scheme: dark)"
+  srcset="./assets/study/cisco-dark.svg"><source media="(prefers-color-scheme: light)"
+  srcset="./assets/study/cisco-light.svg"><img src="./assets/study/cisco-dark.svg"
+  alt="CCNA, Cisco" width="120" height="132"></picture></a>
+<a href="https://www.python.org"><picture><source media="(prefers-color-scheme: dark)"
+  srcset="./assets/study/python-dark.svg"><source media="(prefers-color-scheme: light)"
+  srcset="./assets/study/python-light.svg"><img src="./assets/study/python-dark.svg"
+  alt="Python for automation" width="120" height="132"></picture></a>
 
 ---
 
