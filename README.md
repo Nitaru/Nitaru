@@ -56,57 +56,13 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ## Skills
 
-<sub>Practical, from about 9 months of production support.</sub>
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-dark.svg" width="100%" alt="Skills. Linux: journalctl, dmesg, systemd, OOM and memory pressure, NVMe and SMART, IPMI logs. Virtualization and cloud: KVM, QEMU/libvirt, live migration, HA, OpenStack, Open vSwitch. Storage and networking: distributed storage, VLANs, bonds, MTU, DHCP and DNS. Automation and IaC: Bash, Terraform, Ansible, Git. Monitoring and scripting: Prometheus, Grafana, Loki, Python, Node.js, Docker."></picture>
+</p>
 
-<details>
-  <summary><strong>Linux &amp; troubleshooting</strong></summary>
-  <br>
-
-- journalctl, dmesg, systemd, packages and updates, time sync
-- Memory and NUMA pressure, OOM-killer reports, swap behavior
-- Disk and NVMe health (SMART, kernel I/O errors), BMC/IPMI event logs
-
-</details>
-
-<details>
-  <summary><strong>Virtualization &amp; cloud</strong></summary>
-  <br>
-
-- KVM/QEMU/libvirt, live migration, HA and node maintenance
-- OpenStack: Nova, Neutron with Open vSwitch, Cinder
-- Platform CLI and REST-based tooling
-
-</details>
-
-<details>
-  <summary><strong>Storage &amp; networking</strong></summary>
-  <br>
-
-- Distributed storage basics: disks, chunk services, cluster health
-- VLANs, bonds, MTU, DHCP/DNS basics, Open vSwitch ports and bridges
-- Still strengthening networking (CCNA track)
-
-</details>
-
-<details>
-  <summary><strong>Automation &amp; infrastructure as code</strong></summary>
-  <br>
-
-- Bash: loops that run the same read-only checks on many nodes, log filtering with grep, awk and sed
-- Terraform: modules, remote state and a policy-checked stack on AWS (see projects)
-- Ansible: a two-VM hardened environment configured entirely by roles (see projects), Git
-
-</details>
-
-<details>
-  <summary><strong>Monitoring &amp; scripting</strong></summary>
-  <br>
-
-- Daily work with platform alerts and telemetry
-- Prometheus, Grafana and Loki: built full monitoring stacks with custom exporters and alerting (see projects)
-- Python basics, JavaScript/Node basics, Docker basics
-
-</details>
+<p align="center">
+  <sub>From about 9 months of production support. Python, Node.js and Docker at a basic level.</sub>
+</p>
 
 ---
 

@@ -20,6 +20,14 @@ LAB_ROWS = [  # label, value
 ]
 LAB_CHECKS = (9, 9)  # verify.sh: passed, total
 
+SKILLS = [  # group, chips (the old Skills section, condensed; Python, Node.js and Docker were "basics", said in the README caption)
+    ("LINUX", ["journalctl", "dmesg", "systemd", "OOM / memory", "NVMe & SMART", "IPMI logs"]),
+    ("VIRTUALIZATION & CLOUD", ["KVM", "QEMU/libvirt", "live migration", "HA", "OpenStack", "Open vSwitch"]),
+    ("STORAGE & NETWORKING", ["distributed storage", "VLANs", "bonds", "MTU", "DHCP & DNS"]),
+    ("AUTOMATION & IaC", ["Bash", "Terraform", "Ansible", "Git"]),
+    ("MONITORING & SCRIPTING", ["Prometheus", "Grafana", "Loki", "Python", "Node.js", "Docker"]),
+]
+
 COLORS = {  # GitHub's language colours
     "Shell": "#89e051", "HCL": "#844FBA", "JavaScript": "#f1e05a", "Python": "#3572A5",
     "Makefile": "#427819", "Dockerfile": "#384d54", "Jinja": "#a52a22", "HTML": "#e34c26",
@@ -109,12 +117,44 @@ def lab_card(t):
     return frame(t, body).replace("{label}", "Lab results from the AWS Terraform Hands-On project")
 
 
+def skills_card(t):
+    c = THEMES[t]
+    W, labx, chipx, right = 880, 28, 250, 852
+    ch, gx, gy, pad = 28, 8, 8, 16
+    parts, y = [], 8
+    for gi, (group, chips) in enumerate(SKILLS):
+        # flow the chips into lines
+        lines, line, x = [], [], chipx
+        for chip in chips:
+            w = round(len(chip) * 6.9 + 22)
+            if x + w > right and line:
+                lines.append(line); line, x = [], chipx
+            line.append((chip, x, w)); x += w + gx
+        lines.append(line)
+        top = y + pad
+        parts.append(f'<text x="{labx}" y="{top + 19}" font-family="{FONT}" font-size="11.5" letter-spacing="1.8" fill="{c["label"]}">{group.replace("&", "&amp;")}</text>')
+        for li, ln in enumerate(lines):
+            cy = top + li * (ch + gy)
+            for chip, x, w in ln:
+                parts.append(f'<rect x="{x}" y="{cy}" width="{w}" height="{ch}" rx="9" fill="none" stroke="{c["border"]}" stroke-width="1.5"/>'
+                             f'<text x="{x + w / 2}" y="{cy + 18.5}" text-anchor="middle" font-family="{FONT}" font-size="13" fill="{c["text"]}">{chip.replace("&", "&amp;")}</text>')
+        y = top + len(lines) * (ch + gy) - gy + pad
+        if gi < len(SKILLS) - 1:
+            parts.append(f'<line x1="{labx}" y1="{y}" x2="{right}" y2="{y}" stroke="{c["border"]}" stroke-width="1" opacity="0.6"/>')
+    H = y + 8
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
+            f'aria-label="Skills: {"; ".join(g.title() + ": " + ", ".join(ch) for g, ch in SKILLS).replace("&", "and")}">\n'
+            f'  <rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="{c["border"]}" stroke-width="1.5"/>\n'
+            f'  {"".join(parts)}\n</svg>\n')
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     shares = language_shares()
     for t in THEMES:
         open(os.path.join(OUT, f"languages-{t}.svg"), "w").write(languages_card(t, shares))
         open(os.path.join(OUT, f"lab-{t}.svg"), "w").write(lab_card(t))
+        open(os.path.join(OUT, f"skills-{t}.svg"), "w").write(skills_card(t))
     for n, p in shares:
         print(f"{n:12s} {p:5.1f}%")
 
