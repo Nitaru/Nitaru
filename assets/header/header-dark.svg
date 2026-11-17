@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Nika Tolordava. Linux, infrastructure and SRE. A heartbeat trace that keeps running.">
+  <style>
+    .t{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+    .pulse{stroke-dasharray:260 3000;animation:sweep 5s linear infinite}
+    @keyframes sweep{from{stroke-dashoffset:260}to{stroke-dashoffset:-3000}}
+    .blink{animation:blink 1.2s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.pulse,.blink{animation:none}}
+  </style>
+  <rect width="1200" height="280" fill="#0d1117"/>
+  <g stroke="#3a4655" stroke-width="1" opacity="0.28"><line x1="0" y1="0" x2="0" y2="280"/><line x1="60" y1="0" x2="60" y2="280"/><line x1="120" y1="0" x2="120" y2="280"/><line x1="180" y1="0" x2="180" y2="280"/><line x1="240" y1="0" x2="240" y2="280"/><line x1="300" y1="0" x2="300" y2="280"/><line x1="360" y1="0" x2="360" y2="280"/><line x1="420" y1="0" x2="420" y2="280"/><line x1="480" y1="0" x2="480" y2="280"/><line x1="540" y1="0" x2="540" y2="280"/><line x1="600" y1="0" x2="600" y2="280"/><line x1="660" y1="0" x2="660" y2="280"/><line x1="720" y1="0" x2="720" y2="280"/><line x1="780" y1="0" x2="780" y2="280"/><line x1="840" y1="0" x2="840" y2="280"/><line x1="900" y1="0" x2="900" y2="280"/><line x1="960" y1="0" x2="960" y2="280"/><line x1="1020" y1="0" x2="1020" y2="280"/><line x1="1080" y1="0" x2="1080" y2="280"/><line x1="1140" y1="0" x2="1140" y2="280"/><line x1="1200" y1="0" x2="1200" y2="280"/><line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="52" x2="1200" y2="52"/><line x1="0" y1="104" x2="1200" y2="104"/><line x1="0" y1="156" x2="1200" y2="156"/><line x1="0" y1="208" x2="1200" y2="208"/><line x1="0" y1="260" x2="1200" y2="260"/></g>
+  <path d="M0 200 L30 200 L45 186 L60 200 L76 200 L84 216 L96 142 L108 228 L118 200 L136 200 L152 180 L170 200 L270 200 L285 186 L300 200 L316 200 L324 216 L336 142 L348 228 L358 200 L376 200 L392 180 L410 200 L510 200 L525 186 L540 200 L556 200 L564 216 L576 142 L588 228 L598 200 L616 200 L632 180 L650 200 L750 200 L765 186 L780 200 L796 200 L804 216 L816 142 L828 228 L838 200 L856 200 L872 180 L890 200 L990 200 L1005 186 L1020 200 L1036 200 L1044 216 L1056 142 L1068 228 L1078 200 L1096 200 L1112 180 L1130 200 L1200 200" fill="none" stroke="#3a4655" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path class="pulse" d="M0 200 L30 200 L45 186 L60 200 L76 200 L84 216 L96 142 L108 228 L118 200 L136 200 L152 180 L170 200 L270 200 L285 186 L300 200 L316 200 L324 216 L336 142 L348 228 L358 200 L376 200 L392 180 L410 200 L510 200 L525 186 L540 200 L556 200 L564 216 L576 142 L588 228 L598 200 L616 200 L632 180 L650 200 L750 200 L765 186 L780 200 L796 200 L804 216 L816 142 L828 228 L838 200 L856 200 L872 180 L890 200 L990 200 L1005 186 L1020 200 L1036 200 L1044 216 L1056 142 L1068 228 L1078 200 L1096 200 L1112 180 L1130 200 L1200 200" fill="none" stroke="#80a0c0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <text class="t" x="600" y="92" text-anchor="middle" font-size="54" font-weight="700" fill="#e6edf3">Nika Tolordava</text>
+  <text class="t" x="600" y="128" text-anchor="middle" font-size="20" fill="#8b98a9" letter-spacing="3">LINUX  ·  INFRASTRUCTURE  ·  SRE</text>
+  <text class="t blink" x="600" y="268" text-anchor="middle" font-size="14" fill="#80a0c0" letter-spacing="2">uptime: running</text>
+</svg>
