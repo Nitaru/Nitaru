@@ -120,11 +120,15 @@ A VPC with public and private subnets, a bastion limited to one admin address an
 <br clear="left">
 </p>
 
+---
+
 <p>
 <a href="https://github.com/Nitaru/Kubernetes-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/projects/kubernetes-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/projects/kubernetes-light.svg"><img src="./assets/projects/kubernetes-dark.svg" alt="Kubernetes Hands-On" align="left" height="40"></picture></a>
 A production-style platform on a 3-node kind cluster, built with Helm: Traefik ingress, HPA autoscaling, zero-downtime rollouts, a PodDisruptionBudget, hardened pods, a Redis StatefulSet and default-deny NetworkPolicies enforced by Calico. Built from scratch by one script, with demos for rollouts, self-healing, autoscaling, network isolation and node drain, plus smoke tests and CI.
 <br clear="left">
 </p>
+
+---
 
 <p>
 <a href="https://github.com/Nitaru/Linux-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/projects/linux-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/projects/linux-light.svg"><img src="./assets/projects/linux-dark.svg" alt="Linux Hands-On" align="left" height="40"></picture></a>
@@ -132,11 +136,15 @@ A hardened two-VM Linux environment configured entirely with Ansible. Key-only S
 <br clear="left">
 </p>
 
+---
+
 <p>
 <a href="https://github.com/Nitaru/Nitaru_DevOps_Shenanigans"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/projects/devops-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/projects/devops-light.svg"><img src="./assets/projects/devops-dark.svg" alt="DevOps Hands-On" align="left" height="40"></picture></a>
 Four projects that each run locally with Docker Compose: Consul service discovery, a 5-service Docker app, zero-downtime blue-green deployments with CI/CD, and a Prometheus + Grafana + Loki monitoring stack with custom exporters and alerting.
 <br clear="left">
 </p>
+
+---
 
 <p>
 <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/projects/portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/projects/portfolio-light.svg"><img src="./assets/projects/portfolio-dark.svg" alt="Portfolio site" align="left" height="40"></picture></a>
