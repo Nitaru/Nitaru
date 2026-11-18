@@ -69,7 +69,7 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
 </p>
 
 <p align="center">
-<a href="https://github.com/Nitaru/AWS-Terraform-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-terraform-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-terraform-light.svg"><img src="./assets/cards/project-terraform-dark.svg" width="100%" alt="AWS Terraform Hands-On. A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (9 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI."></picture></a>
+<a href="https://github.com/Nitaru/AWS-Terraform-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-terraform-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-terraform-light.svg"><img src="./assets/cards/project-terraform-dark.svg" width="100%" alt="AWS Terraform Hands-On. A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (11 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI."></picture></a>
 </p>
 
 <p align="center">

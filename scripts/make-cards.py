@@ -18,7 +18,7 @@ LAB_ROWS = [  # label, value
     ("Destroy time", "1m42s"),
     ("Resources left after destroy", "0"),
 ]
-LAB_CHECKS = (9, 9)  # verify.sh: passed, total
+LAB_CHECKS = (11, 11)  # verify.sh: passed, total
 
 SKILLS = [  # group, chips (the old Skills section, condensed; Python, Node.js and Docker were "basics", said in the README caption)
     ("LINUX", ["journalctl", "dmesg", "systemd", "OOM / memory", "NVMe & SMART", "IPMI logs"]),
@@ -54,8 +54,8 @@ PROJECTS = [  # key, repo url, icon, brand colour, title, summary, tech chips, m
     ("terraform", "https://github.com/Nitaru/AWS-Terraform-Hands-On", "terraform", "#7B42BC", "AWS Terraform Hands-On",
      "VPC, bastion and Auto Scaling web tier on AWS",
      ["Terraform", "S3 state", "ALB", "Auto Scaling", "Checkov", "tflint"],
-     [("37", "resources applied"), ("9/9", "live checks"), ("102 s", "self-heal")],
-     "A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (9 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI."),
+     [("37", "resources applied"), ("11/11", "live checks"), ("102 s", "self-heal")],
+     "A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (11 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI."),
     ("kubernetes", "https://github.com/Nitaru/Kubernetes-Hands-On", "kubernetes", "#326CE5", "Kubernetes Hands-On",
      "Production-style platform on a 3-node kind cluster",
      ["Helm", "Traefik", "HPA", "Calico", "Redis StatefulSet", "NetworkPolicies"],
