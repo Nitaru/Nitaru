@@ -145,25 +145,18 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## How I work
-
-- Evidence first, and read-only checks before any change
-- Separate verified facts from guesses
-- Write it down, so the next person doesn't have to rediscover it
-- Use AI assistants to speed up analysis, and always verify against the documentation and a lab
-
----
-
 ## Looking for
 
-Linux administration, infrastructure operations and SRE/DevOps-oriented roles, where I can keep growing by doing.
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/looking-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/looking-light.svg"><img src="./assets/cards/looking-dark.svg" width="100%" alt="Looking for: Linux administration, Infrastructure operations, SRE / DevOps. Roles where I can keep growing by doing."></picture>
+</p>
 
 ---
 
 ## Contact
 
 <p align="center">
-  <a href="https://nitaru.github.io">nitaru.github.io</a> ·
-  <a href="mailto:nikoloztolordava10@gmail.com">nikoloztolordava10@gmail.com</a> ·
-  <a href="https://www.linkedin.com/in/nika-tolordava-2b82a6231">LinkedIn</a>
+  <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-website-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-website-light.svg"><img src="./assets/cards/contact-website-dark.svg" width="270" height="84" alt="Website: nitaru.github.io"></picture></a>
+  <a href="mailto:nikoloztolordava10@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-email-light.svg"><img src="./assets/cards/contact-email-dark.svg" width="270" height="84" alt="Email: nikoloztolordava10@gmail.com"></picture></a>
+  <a href="https://www.linkedin.com/in/nika-tolordava-2b82a6231"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-linkedin-light.svg"><img src="./assets/cards/contact-linkedin-dark.svg" width="270" height="84" alt="LinkedIn: in/nika-tolordava-2b82a6231"></picture></a>
 </p>
