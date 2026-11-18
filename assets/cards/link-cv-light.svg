@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 56" width="150" height="56" role="img" aria-label="CV">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 56" width="150" height="56" role="img" aria-label="Resume">
   <rect x="0.75" y="0.75" width="148.5" height="54.5" rx="14" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
   <rect x="10" y="10" width="36" height="36" rx="10" fill="#3b6ea5" fill-opacity="0.14"/>
   <g fill="none" stroke="#3b6ea5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" transform="translate(16 16)"><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v4h4"/><path d="M9 12h6M9 16h6"/></g>
-  <text x="58" y="34" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2328">CV</text>
+  <text x="58" y="34" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2328">Resume</text>
 </svg>

@@ -31,7 +31,7 @@
   <a href="./cv/Nikoloz_Tolordava_CV.pdf"><picture><source media="(prefers-color-scheme: dark)"
     srcset="./assets/cards/link-cv-dark.svg"><source media="(prefers-color-scheme: light)"
     srcset="./assets/cards/link-cv-light.svg"><img src="./assets/cards/link-cv-dark.svg"
-    alt="CV (PDF)" width="150" height="56"></picture></a>
+    alt="Resume (PDF)" width="150" height="56"></picture></a>
 </p>
 
 <br>
