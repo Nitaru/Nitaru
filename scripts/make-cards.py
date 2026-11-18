@@ -77,7 +77,7 @@ PROJECTS = [  # key, repo url, icon, brand colour, title, summary, tech chips, m
      "My portfolio site, with the same projects and write-ups."),
 ]
 
-HEADINGS = [("intro", "Hi, I'm Nika \U0001F44B"), ("daily", "What I do day to day"), ("skills", "Skills"),
+HEADINGS = [("intro", "Hi, I'm Nika \U0001F9E2"), ("daily", "What I do day to day"), ("skills", "Skills"),
             ("projects", "Featured labs & projects"), ("numbers", "By the numbers"),
             ("studying", "Studying"), ("looking", "Looking for")]
 

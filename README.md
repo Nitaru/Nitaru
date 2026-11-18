@@ -38,7 +38,7 @@
   </a>
 </p>
 
-<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-intro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-intro-light.svg"><img src="./assets/cards/heading-intro-dark.svg" width="100%" alt="Hi, I&#x27;m Nika 👋"></picture></h3>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-intro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-intro-light.svg"><img src="./assets/cards/heading-intro-dark.svg" width="100%" alt="Hi, I&#x27;m Nika 🧢"></picture></h3>
 
 <p align="center">
 Support engineer (L2) at <strong>Virtuozzo</strong> in Tbilisi and Computer Science student at Ilia State University (graduating 2027).
