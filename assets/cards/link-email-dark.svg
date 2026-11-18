@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 56" width="176" height="56" role="img" aria-label="Email">
-  <rect x="0.75" y="0.75" width="174.5" height="54.5" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 56" width="150" height="56" role="img" aria-label="Email">
+  <rect x="0.75" y="0.75" width="148.5" height="54.5" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
   <rect x="10" y="10" width="36" height="36" rx="10" fill="#80a0c0" fill-opacity="0.14"/>
   <g transform="translate(16 16)" fill="#80a0c0"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></g>
   <text x="58" y="34" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e6edf3">Email</text>

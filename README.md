@@ -15,19 +15,23 @@
   <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)"
     srcset="./assets/cards/link-website-dark.svg"><source media="(prefers-color-scheme: light)"
     srcset="./assets/cards/link-website-light.svg"><img src="./assets/cards/link-website-dark.svg"
-    alt="Website" width="176" height="56"></picture></a>
+    alt="Website" width="150" height="56"></picture></a>
   <a href="https://www.linkedin.com/in/nika-tolordava-2b82a6231"><picture><source media="(prefers-color-scheme: dark)"
     srcset="./assets/cards/link-linkedin-dark.svg"><source media="(prefers-color-scheme: light)"
     srcset="./assets/cards/link-linkedin-light.svg"><img src="./assets/cards/link-linkedin-dark.svg"
-    alt="LinkedIn" width="176" height="56"></picture></a>
+    alt="LinkedIn" width="150" height="56"></picture></a>
   <a href="mailto:nikoloztolordava10@gmail.com"><picture><source media="(prefers-color-scheme: dark)"
     srcset="./assets/cards/link-email-dark.svg"><source media="(prefers-color-scheme: light)"
     srcset="./assets/cards/link-email-light.svg"><img src="./assets/cards/link-email-dark.svg"
-    alt="Email: nikoloztolordava10@gmail.com" width="176" height="56"></picture></a>
+    alt="Email: nikoloztolordava10@gmail.com" width="150" height="56"></picture></a>
   <a href="https://github.com/Nitaru?tab=repositories"><picture><source media="(prefers-color-scheme: dark)"
     srcset="./assets/cards/link-github-dark.svg"><source media="(prefers-color-scheme: light)"
     srcset="./assets/cards/link-github-light.svg"><img src="./assets/cards/link-github-dark.svg"
-    alt="GitHub" width="176" height="56"></picture></a>
+    alt="GitHub" width="150" height="56"></picture></a>
+  <a href="./cv/Nikoloz_Tolordava_CV.pdf"><picture><source media="(prefers-color-scheme: dark)"
+    srcset="./assets/cards/link-cv-dark.svg"><source media="(prefers-color-scheme: light)"
+    srcset="./assets/cards/link-cv-light.svg"><img src="./assets/cards/link-cv-dark.svg"
+    alt="CV (PDF)" width="150" height="56"></picture></a>
 </p>
 
 <br>
