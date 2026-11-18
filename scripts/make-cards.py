@@ -77,6 +77,10 @@ PROJECTS = [  # key, repo url, icon, brand colour, title, summary, tech chips, m
      "My portfolio site, with the same projects and write-ups."),
 ]
 
+HEADINGS = [("intro", "Hi, I'm Nika \U0001F44B"), ("daily", "What I do day to day"), ("skills", "Skills"),
+            ("projects", "Featured labs & projects"), ("numbers", "By the numbers"),
+            ("studying", "Studying"), ("looking", "Looking for")]
+
 COLORS = {  # GitHub's language colours
     "Shell": "#89e051", "HCL": "#844FBA", "JavaScript": "#f1e05a", "Python": "#3572A5",
     "Makefile": "#427819", "Dockerfile": "#384d54", "Jinja": "#a52a22", "HTML": "#e34c26",
@@ -199,23 +203,22 @@ def skills_card(t):
 
 def looking_card(t):
     c = THEMES[t]
-    W, H = 880, 200
+    W, H = 880, 156
     chips, x = [], 28
     for label in LOOKING:
         w = round(len(label) * 10.2 + 40)
-        chips.append(f'<rect x="{x}" y="74" width="{w}" height="42" rx="12" fill="{c["accent"]}" fill-opacity="0.14" stroke="{c["accent"]}" stroke-width="1.5"/>'
-                     f'<text x="{x + w / 2}" y="101" text-anchor="middle" font-family="{FONT}" font-size="17" font-weight="600" fill="{c["text"]}">{label}</text>')
+        chips.append(f'<rect x="{x}" y="28" width="{w}" height="42" rx="12" fill="{c["accent"]}" fill-opacity="0.14" stroke="{c["accent"]}" stroke-width="1.5"/>'
+                     f'<text x="{x + w / 2}" y="55" text-anchor="middle" font-family="{FONT}" font-size="17" font-weight="600" fill="{c["text"]}">{label}</text>')
         x += w + 14
-    y0 = 180  # faint trace along the bottom, same motif as the header
+    y0 = 134  # faint trace along the bottom, same motif as the header
     d = f"M0 {y0}"
     for b in (120, 360, 600, 840):
         d += f" L{b - 40} {y0} L{b - 30} {y0 - 8} L{b - 20} {y0} L{b - 6} {y0} L{b - 2} {y0 + 6} L{b + 4} {y0 - 16} L{b + 10} {y0 + 8} L{b + 14} {y0} L{b + 40} {y0}"
     d += f" L{W} {y0}"
     body = (f'  <style>.p{{stroke-dasharray:180 2400;animation:s 6s linear infinite}}@keyframes s{{from{{stroke-dashoffset:180}}to{{stroke-dashoffset:-2400}}}}'
             f'@media (prefers-reduced-motion:reduce){{.p{{animation:none}}}}</style>\n'
-            f'  <text x="28" y="40" font-family="{FONT}" font-size="11.5" letter-spacing="2" fill="{c["label"]}">LOOKING FOR</text>\n'
             f'  {"".join(chips)}\n'
-            f'  <text x="28" y="146" font-family="{FONT}" font-size="14" fill="{c["dim"]}">Roles where I can keep growing by doing.</text>\n'
+            f'  <text x="28" y="100" font-family="{FONT}" font-size="14" fill="{c["dim"]}">Roles where I can keep growing by doing.</text>\n'
             f'  <path d="{d}" fill="none" stroke="{c["track"]}" stroke-width="1.5" stroke-linejoin="round" opacity="0.8"/>\n'
             f'  <path class="p" d="{d}" fill="none" stroke="{c["accent"]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>\n')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
@@ -288,6 +291,22 @@ def project_card(pr, t):
             f'  {"".join(parts)}\n</svg>\n')
 
 
+def heading(text, t):
+    c = THEMES[t]
+    W, H, cy = 880, 48, 24
+    tw = len(text) * 12.4                       # rough width of the title
+    gap = 22
+    lx, rx = 440 - tw / 2 - gap, 440 + tw / 2 + gap
+    blip = [(0, 0), (10, 0), (16, -7), (22, 0), (28, 0), (31, 8), (35, -15), (39, 6), (42, 0)]  # heartbeat, drawn outwards
+    left = f"M{lx:.1f} {cy} " + " ".join(f"L{lx - px:.1f} {cy + py}" for px, py in blip[1:]) + f" L28 {cy}"
+    right = f"M{rx:.1f} {cy} " + " ".join(f"L{rx + px:.1f} {cy + py}" for px, py in blip[1:]) + f" L852 {cy}"
+    esc = text.replace("&", "&amp;")
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{esc}">\n'
+            f'  <path d="{left}" fill="none" stroke="{c["border"]}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>\n'
+            f'  <path d="{right}" fill="none" stroke="{c["border"]}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>\n'
+            f'  <text x="440" y="{cy + 8}" text-anchor="middle" font-family="{FONT}" font-size="22" font-weight="700" fill="{c["text"]}">{esc}</text>\n</svg>\n')
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     shares = language_shares()
@@ -299,6 +318,8 @@ def main():
         for key, title in LINKS:
             open(os.path.join(OUT, f"link-{key}-{t}.svg"), "w").write(link_button(key, title, t))
         open(os.path.join(OUT, f"daily-{t}.svg"), "w").write(daily_card(t))
+        for slug, text in HEADINGS:
+            open(os.path.join(OUT, f"heading-{slug}-{t}.svg"), "w").write(heading(text, t))
         for pr in PROJECTS:
             open(os.path.join(OUT, f"project-{pr[0]}-{t}.svg"), "w").write(project_card(pr, t))
     for n, p in shares:

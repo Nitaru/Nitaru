@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 48" width="880" height="48" role="img" aria-label="Looking for">
+  <path d="M349.8 24 L339.8 24 L333.8 17 L327.8 24 L321.8 24 L318.8 32 L314.8 9 L310.8 30 L307.8 24 L28 24" fill="none" stroke="#30363d" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M530.2 24 L540.2 24 L546.2 17 L552.2 24 L558.2 24 L561.2 32 L565.2 9 L569.2 30 L572.2 24 L852 24" fill="none" stroke="#30363d" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="440" y="32" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Looking for</text>
+</svg>

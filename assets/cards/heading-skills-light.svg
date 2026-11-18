@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 48" width="880" height="48" role="img" aria-label="Skills">
+  <path d="M380.8 24 L370.8 24 L364.8 17 L358.8 24 L352.8 24 L349.8 32 L345.8 9 L341.8 30 L338.8 24 L28 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M499.2 24 L509.2 24 L515.2 17 L521.2 24 L527.2 24 L530.2 32 L534.2 9 L538.2 30 L541.2 24 L852 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="440" y="32" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2328">Skills</text>
+</svg>

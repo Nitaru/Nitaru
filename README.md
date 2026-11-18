@@ -38,7 +38,7 @@
   </a>
 </p>
 
-<h2 align="center">Hi, I'm Nika 👋</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-intro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-intro-light.svg"><img src="./assets/cards/heading-intro-dark.svg" width="100%" alt="Hi, I&#x27;m Nika 👋"></picture></h3>
 
 <p align="center">
 Support engineer (L2) at <strong>Virtuozzo</strong> in Tbilisi and Computer Science student at Ilia State University (graduating 2027).
@@ -46,17 +46,13 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 and I'm building my path toward <strong>Linux administration, infrastructure operations and SRE/DevOps-style work</strong>.
 </p>
 
----
-
-<h2 align="center">What I do day to day</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-daily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-daily-light.svg"><img src="./assets/cards/heading-daily-dark.svg" width="100%" alt="What I do day to day"></picture></h3>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/daily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/daily-light.svg"><img src="./assets/cards/daily-dark.svg" width="100%" alt="What I do day to day. Investigate: production clusters over SSH: logs, services, kernel messages, hardware health and networking. Root cause: findings from evidence, explained to customers, escalated with a timeline, verified facts kept apart from guesses. Platform: KVM/libvirt VMs, OpenStack compute, networking and volumes, a distributed storage cluster and its alerting. Document: notes on recurring issues, tracked in ticketing systems and issue trackers."></picture>
 </p>
 
----
-
-<h2 align="center">Skills</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-skills-light.svg"><img src="./assets/cards/heading-skills-dark.svg" width="100%" alt="Skills"></picture></h3>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-dark.svg" width="100%" alt="Skills. Linux: journalctl, dmesg, systemd, OOM and memory pressure, NVMe and SMART, IPMI logs. Virtualization and cloud: KVM, QEMU/libvirt, live migration, HA, OpenStack, Open vSwitch. Storage and networking: distributed storage, VLANs, bonds, MTU, DHCP and DNS. Automation and IaC: Bash, Terraform, Ansible, Git. Monitoring and scripting: Prometheus, Grafana, Loki, Python, Node.js, Docker."></picture>
@@ -66,9 +62,7 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
   <sub>From about 9 months of production support. Python, Node.js and Docker at a basic level.</sub>
 </p>
 
----
-
-<h2 align="center">Featured labs &amp; projects</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-projects-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-projects-light.svg"><img src="./assets/cards/heading-projects-dark.svg" width="100%" alt="Featured labs &amp; projects"></picture></h3>
 
 <p align="center">
   <em>Each one runs, is tested, and says what it does not cover.</em>
@@ -94,9 +88,7 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
 <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-portfolio-light.svg"><img src="./assets/cards/project-portfolio-dark.svg" width="100%" alt="Portfolio site. My portfolio site, with the same projects and write-ups."></picture></a>
 </p>
 
----
-
-<h2 align="center">By the numbers</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-numbers-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-numbers-light.svg"><img src="./assets/cards/heading-numbers-dark.svg" width="100%" alt="By the numbers"></picture></h3>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/languages-light.svg"><img src="./assets/cards/languages-dark.svg" width="400" alt="Most used languages across public repos"></picture>
@@ -107,9 +99,7 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
   <sub>Languages: bytes of code in my public repos, as GitHub detects them. Lab results: measured in <a href="https://github.com/Nitaru/AWS-Terraform-Hands-On">AWS Terraform Hands-On</a> on a real account, then destroyed.</sub>
 </p>
 
----
-
-<h2 align="center">Studying</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-studying-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-studying-light.svg"><img src="./assets/cards/heading-studying-dark.svg" width="100%" alt="Studying"></picture></h3>
 
 <p align="center">
 <!-- Keep tags adjacent so link whitespace does not appear underlined. -->
@@ -131,9 +121,7 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
   alt="Python for automation" width="120" height="132"></picture></a>
 </p>
 
----
-
-<h2 align="center">Looking for</h2>
+<h3 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-looking-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/heading-looking-light.svg"><img src="./assets/cards/heading-looking-dark.svg" width="100%" alt="Looking for"></picture></h3>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/looking-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/looking-light.svg"><img src="./assets/cards/looking-dark.svg" width="100%" alt="Looking for: Linux administration, Infrastructure operations, SRE / DevOps. Roles where I can keep growing by doing."></picture>

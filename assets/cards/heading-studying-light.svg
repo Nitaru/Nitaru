@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 48" width="880" height="48" role="img" aria-label="Studying">
+  <path d="M368.4 24 L358.4 24 L352.4 17 L346.4 24 L340.4 24 L337.4 32 L333.4 9 L329.4 30 L326.4 24 L28 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M511.6 24 L521.6 24 L527.6 17 L533.6 24 L539.6 24 L542.6 32 L546.6 9 L550.6 30 L553.6 24 L852 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="440" y="32" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2328">Studying</text>
+</svg>

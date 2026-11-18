@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 48" width="880" height="48" role="img" aria-label="What I do day to day">
+  <path d="M294.0 24 L284.0 24 L278.0 17 L272.0 24 L266.0 24 L263.0 32 L259.0 9 L255.0 30 L252.0 24 L28 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M586.0 24 L596.0 24 L602.0 17 L608.0 24 L614.0 24 L617.0 32 L621.0 9 L625.0 30 L628.0 24 L852 24" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="440" y="32" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2328">What I do day to day</text>
+</svg>
