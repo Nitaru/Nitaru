@@ -13,21 +13,21 @@
 <p align="center">
   <!-- Keep tags adjacent so link whitespace does not appear underlined. -->
   <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)"
-    srcset="./assets/social/website-dark.svg"><source media="(prefers-color-scheme: light)"
-    srcset="./assets/social/website-light.svg"><img src="./assets/social/website-dark.svg"
-    alt="Website" width="104" height="44"></picture></a>
+    srcset="./assets/cards/link-website-dark.svg"><source media="(prefers-color-scheme: light)"
+    srcset="./assets/cards/link-website-light.svg"><img src="./assets/cards/link-website-dark.svg"
+    alt="Website" width="176" height="56"></picture></a>
   <a href="https://www.linkedin.com/in/nika-tolordava-2b82a6231"><picture><source media="(prefers-color-scheme: dark)"
-    srcset="./assets/social/linkedin-dark.svg"><source media="(prefers-color-scheme: light)"
-    srcset="./assets/social/linkedin-light.svg"><img src="./assets/social/linkedin-dark.svg"
-    alt="LinkedIn" width="112" height="44"></picture></a>
+    srcset="./assets/cards/link-linkedin-dark.svg"><source media="(prefers-color-scheme: light)"
+    srcset="./assets/cards/link-linkedin-light.svg"><img src="./assets/cards/link-linkedin-dark.svg"
+    alt="LinkedIn" width="176" height="56"></picture></a>
   <a href="mailto:nikoloztolordava10@gmail.com"><picture><source media="(prefers-color-scheme: dark)"
-    srcset="./assets/social/email-dark.svg"><source media="(prefers-color-scheme: light)"
-    srcset="./assets/social/email-light.svg"><img src="./assets/social/email-dark.svg"
-    alt="Email" width="87" height="44"></picture></a>
+    srcset="./assets/cards/link-email-dark.svg"><source media="(prefers-color-scheme: light)"
+    srcset="./assets/cards/link-email-light.svg"><img src="./assets/cards/link-email-dark.svg"
+    alt="Email: nikoloztolordava10@gmail.com" width="176" height="56"></picture></a>
   <a href="https://github.com/Nitaru?tab=repositories"><picture><source media="(prefers-color-scheme: dark)"
-    srcset="./assets/social/github-dark.svg"><source media="(prefers-color-scheme: light)"
-    srcset="./assets/social/github-light.svg"><img src="./assets/social/github-dark.svg"
-    alt="GitHub" width="95" height="44"></picture></a>
+    srcset="./assets/cards/link-github-dark.svg"><source media="(prefers-color-scheme: light)"
+    srcset="./assets/cards/link-github-light.svg"><img src="./assets/cards/link-github-dark.svg"
+    alt="GitHub" width="176" height="56"></picture></a>
 </p>
 
 <br>
@@ -38,23 +38,25 @@
   </a>
 </p>
 
-## Hi, I'm Nika 👋
+<h2 align="center">Hi, I'm Nika 👋</h2>
 
-Support engineer (L2) at **Virtuozzo** in Tbilisi, and a Computer Science student at Ilia State University (graduating 2027).
-Since March 2026 I investigate incidents on production cloud and storage clusters built on Linux, KVM and OpenStack, and I'm building my path toward **Linux administration, infrastructure operations and SRE/DevOps-style work**.
-
----
-
-## What I do day to day
-
-- Investigate problems on production clusters over SSH: logs, services, kernel messages, hardware health and networking
-- Find root causes from evidence, explain them clearly to customers, and escalate to developers with a timeline and a clear split between what is verified and what is not
-- Work with KVM/libvirt VMs, OpenStack services (compute, networking, volumes), a distributed storage cluster and the platform's alerting
-- Write documentation and notes on recurring issues, and track work in ticketing systems and issue trackers
+<p align="center">
+Support engineer (L2) at <strong>Virtuozzo</strong> in Tbilisi and Computer Science student at Ilia State University (graduating 2027).
+Since March 2026 I investigate incidents on production cloud and storage clusters built on Linux, KVM and OpenStack,
+and I'm building my path toward <strong>Linux administration, infrastructure operations and SRE/DevOps-style work</strong>.
+</p>
 
 ---
 
-## Skills
+<h2 align="center">What I do day to day</h2>
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/daily-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/daily-light.svg"><img src="./assets/cards/daily-dark.svg" width="100%" alt="What I do day to day. Investigate: production clusters over SSH: logs, services, kernel messages, hardware health and networking. Root cause: findings from evidence, explained to customers, escalated with a timeline, verified facts kept apart from guesses. Platform: KVM/libvirt VMs, OpenStack compute, networking and volumes, a distributed storage cluster and its alerting. Document: notes on recurring issues, tracked in ticketing systems and issue trackers."></picture>
+</p>
+
+---
+
+<h2 align="center">Skills</h2>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-dark.svg" width="100%" alt="Skills. Linux: journalctl, dmesg, systemd, OOM and memory pressure, NVMe and SMART, IPMI logs. Virtualization and cloud: KVM, QEMU/libvirt, live migration, HA, OpenStack, Open vSwitch. Storage and networking: distributed storage, VLANs, bonds, MTU, DHCP and DNS. Automation and IaC: Bash, Terraform, Ansible, Git. Monitoring and scripting: Prometheus, Grafana, Loki, Python, Node.js, Docker."></picture>
@@ -66,7 +68,7 @@ Since March 2026 I investigate incidents on production cloud and storage cluster
 
 ---
 
-## Featured labs & projects
+<h2 align="center">Featured labs &amp; projects</h2>
 
 > **Each one runs, is tested, and says what it does not cover.**
 
@@ -110,7 +112,7 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## By the numbers
+<h2 align="center">By the numbers</h2>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/languages-light.svg"><img src="./assets/cards/languages-dark.svg" width="400" alt="Most used languages across public repos"></picture>
@@ -123,8 +125,9 @@ My portfolio site, with the same projects and write-ups.
 
 ---
 
-## Studying
+<h2 align="center">Studying</h2>
 
+<p align="center">
 <!-- Keep tags adjacent so link whitespace does not appear underlined. -->
 <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/"><picture><source media="(prefers-color-scheme: dark)"
   srcset="./assets/study/aws-dark.svg"><source media="(prefers-color-scheme: light)"
@@ -142,21 +145,12 @@ My portfolio site, with the same projects and write-ups.
   srcset="./assets/study/python-dark.svg"><source media="(prefers-color-scheme: light)"
   srcset="./assets/study/python-light.svg"><img src="./assets/study/python-dark.svg"
   alt="Python for automation" width="120" height="132"></picture></a>
-
----
-
-## Looking for
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/looking-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/looking-light.svg"><img src="./assets/cards/looking-dark.svg" width="100%" alt="Looking for: Linux administration, Infrastructure operations, SRE / DevOps. Roles where I can keep growing by doing."></picture>
 </p>
 
 ---
 
-## Contact
+<h2 align="center">Looking for</h2>
 
 <p align="center">
-  <a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-website-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-website-light.svg"><img src="./assets/cards/contact-website-dark.svg" width="270" height="84" alt="Website: nitaru.github.io"></picture></a>
-  <a href="mailto:nikoloztolordava10@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-email-light.svg"><img src="./assets/cards/contact-email-dark.svg" width="270" height="84" alt="Email: nikoloztolordava10@gmail.com"></picture></a>
-  <a href="https://www.linkedin.com/in/nika-tolordava-2b82a6231"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/contact-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/contact-linkedin-light.svg"><img src="./assets/cards/contact-linkedin-dark.svg" width="270" height="84" alt="LinkedIn: in/nika-tolordava-2b82a6231"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/looking-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/looking-light.svg"><img src="./assets/cards/looking-dark.svg" width="100%" alt="Looking for: Linux administration, Infrastructure operations, SRE / DevOps. Roles where I can keep growing by doing."></picture>
 </p>
