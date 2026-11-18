@@ -102,7 +102,7 @@ def language_shares():
                "--json", "name,isFork", "--limit", "100")
     totals = {}
     for r in repos:
-        if r["isFork"]:
+        if r["isFork"] or r["name"] == OWNER:  # forks and the profile repo itself (it only holds this README's assets)
             continue
         for lang, b in gh("api", f"repos/{OWNER}/{r['name']}/languages").items():
             totals[lang] = totals.get(lang, 0) + b
