@@ -70,12 +70,28 @@ and I'm building my path toward <strong>Linux administration, infrastructure ope
 
 <h2 align="center">Featured labs &amp; projects</h2>
 
-> **Each one runs, is tested, and says what it does not cover.**
+<p align="center">
+  <em>Each one runs, is tested, and says what it does not cover.</em>
+</p>
 
-<p>
-<a href="https://github.com/Nitaru/AWS-Terraform-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/projects/terraform-v2-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/projects/terraform-v2-light.svg"><img src="./assets/projects/terraform-v2-dark.svg" alt="AWS Terraform Hands-On" align="left" width="241" height="35"></picture></a>
-A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (9 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI.
-<br clear="left">
+<p align="center">
+<a href="https://github.com/Nitaru/AWS-Terraform-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-terraform-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-terraform-light.svg"><img src="./assets/cards/project-terraform-dark.svg" width="100%" alt="AWS Terraform Hands-On. A VPC with public and private subnets, a bastion limited to one admin address and an Auto Scaling web tier behind an Application Load Balancer, written as Terraform modules with remote state in S3. Applied to a real account (37 resources), verified from outside (9 checks), tested by killing an instance (capacity back in 102 s, 5.2% of requests failed meanwhile), then destroyed. Checkov and tflint run in CI."></picture></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Nitaru/Kubernetes-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-kubernetes-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-kubernetes-light.svg"><img src="./assets/cards/project-kubernetes-dark.svg" width="100%" alt="Kubernetes Hands-On. A production-style platform on a 3-node kind cluster, built with Helm: Traefik ingress, HPA autoscaling, zero-downtime rollouts, a PodDisruptionBudget, hardened pods, a Redis StatefulSet and default-deny NetworkPolicies enforced by Calico. Built from scratch by one script, with demos for rollouts, self-healing, autoscaling, network isolation and node drain, plus smoke tests and CI."></picture></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Nitaru/Linux-Hands-On"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-linux-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-linux-light.svg"><img src="./assets/cards/project-linux-dark.svg" width="100%" alt="Linux Hands-On. A hardened two-VM Linux environment configured entirely with Ansible. Key-only SSH, UFW, fail2ban, a bastion host with ProxyJump, a WireGuard VPN with NAT, and a SHA-256 file integrity checker on a systemd timer. Comes with a 42-point verification script and scripted attack demos (SSH brute force, log tampering)."></picture></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Nitaru/Nitaru_DevOps_Shenanigans"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-devops-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-devops-light.svg"><img src="./assets/cards/project-devops-dark.svg" width="100%" alt="DevOps Hands-On. Four projects that each run locally with Docker Compose: Consul service discovery, a 5-service Docker app, zero-downtime blue-green deployments with CI/CD, and a Prometheus + Grafana + Loki monitoring stack with custom exporters and alerting."></picture></a>
+</p>
+
+<p align="center">
+<a href="https://nitaru.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/project-portfolio-light.svg"><img src="./assets/cards/project-portfolio-dark.svg" width="100%" alt="Portfolio site. My portfolio site, with the same projects and write-ups."></picture></a>
 </p>
 
 ---
